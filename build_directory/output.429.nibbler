@@ -1,0 +1,31 @@
+== Node distribution == 
+== p=16 processes on 1 nodes ==
+--  Node: 'node8' (16/16)
+        Ranks: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+2016-10-29 01:55:50,527 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-29 01:55:50,527 INFO  Generating graph
+2016-10-29 01:55:50,527 INFO  Input file -> input/20,000,000.fastq
+2016-10-29 01:56:08,035 INFO  Beginning computation, benchmark timer started
+2016-10-29 01:56:08,330 INFO  Vertex ids permuted
+2016-10-29 01:56:08,336 INFO  Graph size : edges -> 218821241
+2016-10-29 01:56:08,336 INFO  0 BFS iterations executed
+2016-10-29 01:56:11,674 INFO  Total tuple count is 437642483
+2016-10-29 01:56:13,393 INFO  Iteration #1
+2016-10-29 01:56:15,222 INFO  Load distribution of active tuples min-mean-max : 27352655,27352655,27352656
+TIMER	1.674e+04	1.682e+04	1.697e+04	1	local_sort
+TIMER	2.601e+03	2.644e+03	2.721e+03	1	get_splitters
+TIMER	5.186e-02	1.668e-01	2.525e-01	1	send_counts
+TIMER	1.540e+07	1.593e+07	1.628e+07	1	all2all
+TIMER	3.739e+06	3.739e+06	3.739e+06	1	local_merge
+TIMER	1.328e+04	3.867e+05	4.182e+05	1	fix_partition
+TIMER	6.888e+03	6.888e+03	6.888e+03	1	local_sort
+TIMER	6.668e+02	6.669e+02	6.671e+02	1	get_splitters
+TIMER	8.470e-02	1.068e-01	1.226e-01	1	send_counts
+TIMER	2.024e+06	2.024e+06	2.024e+06	1	all2all
+TIMER	2.275e+03	2.275e+03	2.275e+03	1	local_merge
+TIMER	1.366e+03	1.437e+03	1.494e+03	1	fix_partition
+TIMER	5.732e+05	5.734e+05	5.736e+05	1	local_sort
+TIMER	9.762e+02	1.012e+03	1.047e+03	1	get_splitters
+TIMER	6.700e-02	8.125e-01	1.550e+00	1	send_counts
+TIMER	8.969e+06	9.236e+06	9.472e+06	1	all2all
+TIMER	1.161e+06	1.161e+06	1.161e+06	1	local_merge

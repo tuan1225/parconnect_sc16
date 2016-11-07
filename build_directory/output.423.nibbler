@@ -1,0 +1,9 @@
+== Node distribution == 
+== p=44 processes on 1 nodes ==
+--  Node: 'node6' (44/44)
+        Ranks: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+2016-10-28 22:49:16,711 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-28 22:49:16,711 INFO  Generating graph
+2016-10-28 22:49:16,711 INFO  Input file -> input/649.4.815.fastq
+2016-10-29 10:35:36,634 INFO  Beginning computation, benchmark timer started
+2016-10-29 10:35:37,651 INFO  Vertex ids permuted

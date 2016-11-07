@@ -1,0 +1,33 @@
+== Node distribution == 
+== p=1 processes on 1 nodes ==
+--  Node: 'node7' (1/1)
+        Ranks: 0
+2016-10-29 14:18:44,044 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-29 14:18:44,044 INFO  Generating graph
+2016-10-29 14:18:44,044 INFO  Input file -> input/20,000,000.fastq
+2016-10-29 14:20:41,033 INFO  Beginning computation, benchmark timer started
+2016-10-29 14:21:02,441 INFO  Vertex ids permuted
+2016-10-29 14:21:02,441 INFO  Graph size : edges -> 218821241
+2016-10-29 14:21:02,441 INFO  0 BFS iterations executed
+2016-10-29 14:21:04,806 INFO  Total tuple count is 437642483
+2016-10-29 14:21:04,806 INFO  Iteration #1
+2016-10-29 14:21:04,806 INFO  Load distribution of active tuples min-mean-max : 437642483,437642483,437642483
+2016-10-29 14:25:42,503 INFO  Iteration #2
+2016-10-29 14:25:42,503 INFO  Load distribution of active tuples min-mean-max : 437642483,437642483,437642483
+2016-10-29 14:29:15,943 INFO  Iteration #3
+2016-10-29 14:29:15,943 INFO  Load distribution of active tuples min-mean-max : 437642169,437642169,437642169
+2016-10-29 14:32:33,224 INFO  Iteration #4
+2016-10-29 14:32:33,224 INFO  Load distribution of active tuples min-mean-max : 437604334,437604334,437604334
+2016-10-29 14:35:43,929 INFO  Iteration #5
+2016-10-29 14:35:43,929 INFO  Load distribution of active tuples min-mean-max : 153020472,153020472,153020472
+2016-10-29 14:36:46,145 INFO  Iteration #6
+2016-10-29 14:36:46,145 INFO  Load distribution of active tuples min-mean-max : 5263168,5263168,5263168
+2016-10-29 14:36:47,750 INFO  Iteration #7
+2016-10-29 14:36:47,750 INFO  Load distribution of active tuples min-mean-max : 2540934,2540934,2540934
+2016-10-29 14:36:48,337 INFO  Iteration #8
+2016-10-29 14:36:48,337 INFO  Load distribution of active tuples min-mean-max : 2157627,2157627,2157627
+2016-10-29 14:36:48,737 INFO  Iteration #9
+2016-10-29 14:36:48,737 INFO  Load distribution of active tuples min-mean-max : 17338,17338,17338
+2016-10-29 14:36:48,740 INFO  Algorithm took 9 iterations
+2016-10-29 14:37:08,200 INFO  Count of components -> 4636292
+2016-10-29 14:37:08,200 INFO  Time (ms) -> 987168

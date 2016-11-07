@@ -1,0 +1,7 @@
+== Node distribution == 
+== p=1 processes on 1 nodes ==
+--  Node: 'node8' (1/1)
+        Ranks: 0
+2016-10-29 01:55:51,354 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-29 01:55:51,354 INFO  Generating graph
+2016-10-29 01:55:51,354 INFO  Input file -> input/20,000,000.fastq

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -DNDEBUG -w -DGRAPH_GENERATOR_SEQ -O2 -DMPICH_IGNORE_CXX_SEEK -O3 -DNDEBUG -march=native -funroll-loops -g   -shared -Wl,-soname,libMPITypelib.so -o ../../lib/libMPITypelib.so CMakeFiles/MPITypelib.dir/MPIType.cpp.o 

@@ -1,0 +1,61 @@
+Command:		/usr/local/openmpi-gcc/bin/mpirun --mca btl openib,self,sm --nooversubscribe -np 44 --map-by node -machinefile /var/spool/torque/aux//567.nibbler ./bin/benchmark_parconnect --input dbg --file input/40,000,000.fastq
+Resources:		1 node (44 physical, 44 logical cores per node)
+Memory:			63 GiB per node
+Tasks:			44 processes
+Machine:		node5
+Started on:		Sat Nov 5 02:22:46 2016
+Total time:		6802 seconds (113 minutes)
+Executable:		benchmark_parconnect
+Full path:		/home/tuan/parconnect_SCC16/build_directory/bin
+Input file:		
+Notes:			
+
+Summary: benchmark_parconnect is MPI-bound in this configuration
+Compute:				          29.4% |==|
+MPI:					          70.6% |======|
+I/O:					           0.0% |
+This application run was MPI-bound. A breakdown of this time and advice for investigating further is found in the MPI section below.
+
+
+CPU:
+A breakdown of the 29.4% total compute time:
+Scalar numeric ops:			           1.5% |
+Vector numeric ops:			           0.0% |
+Memory accesses:			          98.4% |=========|
+The per-core performance is memory-bound. Use a profiler to identify time-consuming loops and check their cache performance.
+No time is spent in vectorized instructions. Check the compiler's vectorization advice to see why key loops could not be vectorized.
+
+Threads:
+A breakdown of how multiple threads were used:
+Computation:				           0.0% |
+Synchronization:			           0.0% |
+Physical core utilization:		          99.9% |=========|
+System load:				          77.7% |=======|
+No measurable time is spent in multithreaded code.
+
+
+MPI:
+A breakdown of the 70.6% MPI time:
+Time in collective calls:		          99.4% |=========|
+Time in point-to-point calls:		           0.6% |
+Effective process collective rate:	       7.76e+06 bytes/s
+Effective process point-to-point rate:	           1.87 bytes/s
+Most of the time is spent in collective calls with a very low transfer rate. This suggests load imbalance is causing synchronization overhead; use an MPI profiler to investigate.
+
+
+I/O:
+A breakdown of the 0.0% I/O time:
+Time in reads:				           0.0% |
+Time in writes:				           0.0% |
+Effective process read rate:		              0 bytes/s
+Effective process write rate:		              0 bytes/s
+No time is spent in I/O operations. There's nothing to optimize here!
+
+
+Memory:
+Per-process memory usage may also affect scaling:
+Mean process memory usage:		       1.33e+09 bytes
+Peak process memory usage:		       2.14e+09 bytes
+Peak node memory usage:			          99.0% |=========|
+There is significant variation between peak and mean memory usage. This may be a sign of workload imbalance or a memory leak.
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -DNDEBUG -w -DGRAPH_GENERATOR_SEQ -O2 -DMPICH_IGNORE_CXX_SEEK -O3 -DNDEBUG -march=native -funroll-loops -g   -shared -Wl,-soname,libMemoryPoollib.so -o ../../lib/libMemoryPoollib.so CMakeFiles/MemoryPoollib.dir/MemoryPool.cpp.o 

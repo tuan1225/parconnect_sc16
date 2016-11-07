@@ -1,0 +1,17 @@
+== Node distribution == 
+== p=1 processes on 1 nodes ==
+--  Node: 'node7' (1/1)
+        Ranks: 0
+2016-10-29 18:38:05,288 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-29 18:38:05,288 INFO  Generating graph
+2016-10-29 18:38:05,288 INFO  Input file -> input/20,000,000.fastq
+2016-10-29 18:40:04,642 INFO  Beginning computation, benchmark timer started
+2016-10-29 18:40:25,766 INFO  Vertex ids permuted
+2016-10-29 18:40:25,766 INFO  Graph size : edges -> 218821241
+2016-10-29 18:40:25,766 INFO  0 BFS iterations executed
+2016-10-29 18:40:28,119 INFO  Total tuple count is 437642483
+2016-10-29 18:40:28,119 INFO  Iteration #1
+2016-10-29 18:45:04,853 INFO  Iteration #2
+2016-10-29 18:48:37,268 INFO  Iteration #3
+2016-10-29 18:51:53,555 INFO  Iteration #4
+2016-10-29 18:55:03,424 INFO  Iteration #5

@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11  -Drestrict=__restrict__  -ffast-math -DGRAPH_GENERATOR_MPI -DGRAPHGEN_DISTRIBUTED_MEMORY -O3 -DNDEBUG -march=native -funroll-loops -g    CMakeFiles/time_sort.dir/time_sort.cpp.o  -o ../bin/time_sort -rdynamic /usr/lib64/openmpi/lib/libmpi_cxx.so /usr/lib64/openmpi/lib/libmpi.so -Wl,-rpath,/usr/lib64/openmpi/lib 

@@ -1,0 +1,29 @@
+== Node distribution == 
+== p=144 processes on 4 nodes ==
+--  Node: 'node4' (36/144)
+        Ranks: 0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140
+--  Node: 'node3' (36/144)
+        Ranks: 1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 105, 109, 113, 117, 121, 125, 129, 133, 137, 141
+--  Node: 'node2' (36/144)
+        Ranks: 2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114, 118, 122, 126, 130, 134, 138, 142
+--  Node: 'node1' (36/144)
+        Ranks: 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99, 103, 107, 111, 115, 119, 123, 127, 131, 135, 139, 143
+2016-10-29 11:47:53,400 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-29 11:47:53,400 INFO  Generating graph
+2016-10-29 11:47:53,400 INFO  Input file -> input/649.4.815.fastq
+2016-10-29 11:49:13,363 INFO  Beginning computation, benchmark timer started
+2016-10-29 11:49:13,913 INFO  Vertex ids permuted
+2016-10-29 11:49:15,571 INFO  Graph size : edges -> 1555547846
+2016-10-29 11:49:15,571 INFO  0 BFS iterations executed
+2016-10-29 11:50:49,523 INFO  Total tuple count is 3111095692
+2016-10-29 11:50:52,896 INFO  Iteration #1
+2016-10-29 11:50:52,945 INFO  Load distribution of active tuples min-mean-max : 21604831,21604831,21604832
+TIMER	9.299e+03	9.309e+03	9.315e+03	1	local_sort
+TIMER	1.674e+01	2.019e+01	2.282e+01	1	get_splitters
+TIMER	1.781e-01	1.247e+00	7.454e+00	1	send_counts
+TIMER	7.503e+04	7.557e+04	7.685e+04	1	all2all
+TIMER	4.247e+03	4.275e+03	4.335e+03	1	local_merge
+TIMER	2.012e+03	2.310e+03	2.780e+03	1	fix_partition
+TIMER	9.169e+03	9.170e+03	9.171e+03	1	local_sort
+TIMER	3.807e+01	3.840e+01	3.890e+01	1	get_splitters
+TIMER	2.197e-01	2.188e+00	8.763e+00	1	send_counts

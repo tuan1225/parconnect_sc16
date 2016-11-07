@@ -1,0 +1,24 @@
+== Node distribution == 
+== p=44 processes on 1 nodes ==
+--  Node: 'node7' (44/44)
+        Ranks: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+2016-11-04 23:04:19,557 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-11-04 23:04:19,557 INFO  Generating graph
+2016-11-04 23:04:19,557 INFO  Input file -> input/20,000,000.fastq
+2016-11-04 23:04:37,445 INFO  Beginning computation, benchmark timer started
+2016-11-04 23:04:38,192 INFO  Vertex ids permuted
+2016-11-04 23:04:38,193 INFO  Graph size : edges -> 218821241
+2016-11-04 23:04:38,193 INFO  0 BFS iterations executed
+2016-11-04 23:04:39,801 INFO  Total tuple count is 437642483
+2016-11-04 23:04:40,157 INFO  Iteration #1
+2016-11-04 23:05:28,347 INFO  Iteration #2
+2016-11-04 23:06:01,578 INFO  Iteration #3
+2016-11-04 23:06:33,682 INFO  Iteration #4
+2016-11-04 23:07:04,562 INFO  Iteration #5
+2016-11-04 23:07:35,267 INFO  Iteration #6
+2016-11-04 23:08:05,751 INFO  Iteration #7
+2016-11-04 23:08:35,650 INFO  Iteration #8
+2016-11-04 23:09:05,150 INFO  Iteration #9
+2016-11-04 23:09:33,864 INFO  Algorithm took 9 iterations
+2016-11-04 23:09:34,523 INFO  Count of components -> 4636292
+2016-11-04 23:09:34,572 INFO  Time (ms) -> 297114

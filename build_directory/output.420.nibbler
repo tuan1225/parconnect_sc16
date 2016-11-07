@@ -1,0 +1,204 @@
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+== Node distribution == 
+== p=44 processes on 1 nodes ==
+--  Node: 'node6' (44/44)
+        Ranks: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory2016-10-28 22:31:02,789 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-10-28 22:31:02,789 INFO  Generating graph
+2016-10-28 22:31:02,789 INFO  Input file -> input/649.4.815.fastq
+
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+terminate called after throwing an instance of 'bliss::io::IOException'
+  what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: mpirun exited unexpectedly. Please make sure you are using an Express Launch compatible MPI.
+Performance Reports: 
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or ...
+Performance Reports: 
+Performance Reports: Executable: /usr/local/openmpi-gcc/bin/mpirun
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: == Node distribution == 
+Performance Reports: == p=44 processes on 1 nodes ==
+Performance Reports: --  Node: 'node6' (44/44)
+Performance Reports:         Ranks: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory2016-10-28 22:31:02,789 INFO  Starting executable for benchmarking in the Student Cluster Competition
+Performance Reports: 2016-10-28 22:31:02,789 INFO  Generating graph
+Performance Reports: 2016-10-28 22:31:02,789 INFO  Input file -> input/649.4.815.fastq
+Performance Reports: 
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: terminate called after throwing an instance of 'bliss::io::IOException'
+Performance Reports:   what():  ERROR in file open: [input/649.4.815.fastq] error 2: No such file or directory
+Performance Reports: --------------------------------------------------------------------------
+Performance Reports: mpirun noticed that process rank 33 with PID 165758 on node node6 exited on signal 11 (Segmentation fault).
+Performance Reports: --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 33 with PID 165758 on node node6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
