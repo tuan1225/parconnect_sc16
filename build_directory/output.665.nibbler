@@ -1,0 +1,291 @@
+== Node distribution == 
+== p=240 processes on 6 nodes ==
+--  Node: 'node4' (36/240)
+        Ranks: 0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156, 162, 168, 174, 180, 186, 192, 198, 204, 210
+--  Node: 'node3' (36/240)
+        Ranks: 1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91, 97, 103, 109, 115, 121, 127, 133, 139, 145, 151, 157, 163, 169, 175, 181, 187, 193, 199, 205, 211
+--  Node: 'node2' (36/240)
+        Ranks: 2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110, 116, 122, 128, 134, 140, 146, 152, 158, 164, 170, 176, 182, 188, 194, 200, 206, 212
+--  Node: 'node7' (44/240)
+        Ranks: 3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93, 99, 105, 111, 117, 123, 129, 135, 141, 147, 153, 159, 165, 171, 177, 183, 189, 195, 201, 207, 213, 216, 219, 222, 225, 228, 231, 234, 237
+--  Node: 'node6' (44/240)
+        Ranks: 4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 148, 154, 160, 166, 172, 178, 184, 190, 196, 202, 208, 214, 217, 220, 223, 226, 229, 232, 235, 238
+--  Node: 'node5' (44/240)
+        Ranks: 5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95, 101, 107, 113, 119, 125, 131, 137, 143, 149, 155, 161, 167, 173, 179, 185, 191, 197, 203, 209, 215, 218, 221, 224, 227, 230, 233, 236, 239
+2016-11-07 01:16:56,880 INFO  Starting executable for benchmarking in the Student Cluster Competition
+2016-11-07 01:16:56,881 INFO  Generating graph
+2016-11-07 01:16:56,881 INFO  Input file -> input/40,000,000.fastq
+2016-11-07 01:17:52,107 INFO  Beginning computation, benchmark timer started
+2016-11-07 01:17:52,155 INFO  Vertex ids permuted
+2016-11-07 01:17:52,373 INFO  Graph size : edges -> 431292603
+2016-11-07 01:17:52,373 INFO  0 BFS iterations executed
+2016-11-07 01:17:53,298 INFO  Total tuple count is 862585206
+2016-11-07 01:17:53,619 INFO  Iteration #1
+2016-11-07 01:17:53,626 INFO  Load distribution of active tuples min-mean-max : 3594105,3594105,3594106
+TIMER	1.103e+03	1.106e+03	1.106e+03	1	local_sort
+TIMER	9.954e+00	1.086e+01	1.965e+01	1	get_splitters
+TIMER	1.873e-01	8.872e-01	2.592e+00	1	send_counts
+TIMER	2.154e+03	2.220e+03	2.291e+03	1	all2all
+TIMER	5.271e+02	5.427e+02	5.467e+02	1	local_merge
+TIMER	1.165e+02	2.224e+02	2.573e+02	1	fix_partition
+TIMER	1.132e+03	1.133e+03	1.133e+03	1	local_sort
+TIMER	9.227e+01	9.288e+01	1.032e+02	1	get_splitters
+TIMER	1.740e-01	8.781e-01	3.729e+00	1	send_counts
+TIMER	2.601e+03	2.613e+03	2.637e+03	1	all2all
+TIMER	6.299e+02	6.409e+02	6.421e+02	1	local_merge
+TIMER	1.143e+02	3.173e+02	4.016e+02	1	fix_partition
+TIMER	1.937e+03	1.937e+03	1.938e+03	1	local_sort
+TIMER	1.672e+01	1.696e+01	1.719e+01	1	get_splitters
+TIMER	2.954e-01	1.189e+00	2.274e+01	1	send_counts
+TIMER	2.473e+03	2.542e+03	2.584e+03	1	all2all
+TIMER	1.164e+03	1.177e+03	1.178e+03	1	local_merge
+TIMER	2.772e+02	6.487e+02	9.803e+02	1	fix_partition
+TIMER	2.025e+03	2.026e+03	2.026e+03	1	local_sort
+TIMER	6.554e+00	6.780e+00	7.056e+00	1	get_splitters
+TIMER	1.985e-02	9.276e-01	2.734e+01	1	send_counts
+TIMER	2.931e+03	2.964e+03	2.998e+03	1	all2all
+TIMER	1.039e+03	1.049e+03	1.049e+03	1	local_merge
+TIMER	2.059e+02	6.323e+02	8.588e+02	1	fix_partition
+2016-11-07 01:18:19,311 INFO  Iteration #2
+2016-11-07 01:18:19,322 INFO  Load distribution of active tuples min-mean-max : 3594105,3594105,3594106
+TIMER	1.187e+03	1.198e+03	1.202e+03	1	local_sort
+TIMER	2.706e+01	2.754e+01	2.782e+01	1	get_splitters
+TIMER	2.825e-01	9.380e-01	5.311e+00	1	send_counts
+TIMER	1.709e+03	1.839e+03	1.887e+03	1	all2all
+TIMER	5.523e+02	5.644e+02	5.647e+02	1	local_merge
+TIMER	1.410e+02	3.672e+02	4.802e+02	1	fix_partition
+TIMER	1.157e+03	1.157e+03	1.157e+03	1	local_sort
+TIMER	4.621e+01	4.668e+01	5.906e+01	1	get_splitters
+TIMER	6.575e-02	8.073e-01	7.363e+00	1	send_counts
+TIMER	1.894e+03	1.917e+03	1.969e+03	1	all2all
+TIMER	5.656e+02	5.880e+02	5.905e+02	1	local_merge
+TIMER	1.417e+02	3.230e+02	4.353e+02	1	fix_partition
+TIMER	1.219e+03	1.219e+03	1.219e+03	1	local_sort
+TIMER	6.893e+00	7.133e+00	7.450e+00	1	get_splitters
+TIMER	2.320e-01	1.363e+00	2.848e+01	1	send_counts
+TIMER	1.836e+03	1.885e+03	1.934e+03	1	all2all
+TIMER	7.669e+02	7.875e+02	7.896e+02	1	local_merge
+TIMER	1.124e+02	9.791e+02	1.138e+03	1	fix_partition
+TIMER	1.159e+03	1.159e+03	1.160e+03	1	local_sort
+TIMER	6.921e+00	7.723e+00	8.225e+00	1	get_splitters
+TIMER	5.250e-02	1.289e+00	2.872e+01	1	send_counts
+TIMER	2.057e+03	2.074e+03	2.109e+03	1	all2all
+TIMER	7.186e+02	7.313e+02	7.320e+02	1	local_merge
+TIMER	1.249e+02	8.409e+02	1.045e+03	1	fix_partition
+2016-11-07 01:18:40,009 INFO  Iteration #3
+2016-11-07 01:18:40,009 INFO  Load distribution of active tuples min-mean-max : 3594103,3594103,3594104
+TIMER	1.104e+03	1.115e+03	1.117e+03	1	local_sort
+TIMER	7.749e+00	9.094e+00	9.398e+00	1	get_splitters
+TIMER	3.775e-01	1.131e+00	2.783e+01	1	send_counts
+TIMER	1.591e+03	1.631e+03	1.754e+03	1	all2all
+TIMER	6.859e+02	6.864e+02	6.980e+02	1	local_merge
+TIMER	1.109e+02	3.670e+02	5.247e+02	1	fix_partition
+TIMER	1.291e+03	1.292e+03	1.292e+03	1	local_sort
+TIMER	4.834e+00	5.040e+00	5.292e+00	1	get_splitters
+TIMER	5.928e-02	9.557e-01	2.583e+00	1	send_counts
+TIMER	1.974e+03	1.994e+03	2.015e+03	1	all2all
+TIMER	6.492e+02	6.593e+02	6.625e+02	1	local_merge
+TIMER	1.411e+02	3.643e+02	5.028e+02	1	fix_partition
+TIMER	1.164e+03	1.164e+03	1.165e+03	1	local_sort
+TIMER	6.115e+00	6.335e+00	6.607e+00	1	get_splitters
+TIMER	3.881e-01	1.192e+00	1.931e+01	1	send_counts
+TIMER	1.966e+03	1.992e+03	2.025e+03	1	all2all
+TIMER	6.769e+02	6.916e+02	6.927e+02	1	local_merge
+TIMER	1.267e+02	6.001e+02	7.917e+02	1	fix_partition
+TIMER	1.090e+03	1.090e+03	1.091e+03	1	local_sort
+TIMER	2.302e+01	2.327e+01	2.357e+01	1	get_splitters
+TIMER	1.840e-01	1.304e+00	1.709e+01	1	send_counts
+TIMER	1.849e+03	1.870e+03	1.891e+03	1	all2all
+TIMER	6.833e+02	7.024e+02	7.063e+02	1	local_merge
+TIMER	1.391e+02	4.805e+02	6.565e+02	1	fix_partition
+2016-11-07 01:18:59,634 INFO  Iteration #4
+2016-11-07 01:18:59,634 INFO  Load distribution of active tuples min-mean-max : 3593828,3593828,3593829
+TIMER	1.094e+03	1.094e+03	1.094e+03	1	local_sort
+TIMER	7.085e+00	7.270e+00	7.488e+00	1	get_splitters
+TIMER	2.246e-01	1.379e+00	3.095e+01	1	send_counts
+TIMER	1.651e+03	1.687e+03	1.714e+03	1	all2all
+TIMER	6.741e+02	6.899e+02	6.904e+02	1	local_merge
+TIMER	1.534e+02	4.069e+02	5.745e+02	1	fix_partition
+TIMER	1.096e+03	1.096e+03	1.096e+03	1	local_sort
+TIMER	5.701e+00	5.923e+00	6.126e+00	1	get_splitters
+TIMER	3.158e-01	1.172e+00	1.522e+01	1	send_counts
+TIMER	2.060e+03	2.082e+03	2.111e+03	1	all2all
+TIMER	6.870e+02	7.019e+02	7.065e+02	1	local_merge
+TIMER	1.178e+02	3.599e+02	4.834e+02	1	fix_partition
+TIMER	1.012e+03	1.012e+03	1.012e+03	1	local_sort
+TIMER	6.921e+00	7.140e+00	7.413e+00	1	get_splitters
+TIMER	3.814e-01	1.370e+00	2.935e+01	1	send_counts
+TIMER	2.015e+03	2.040e+03	2.063e+03	1	all2all
+TIMER	6.767e+02	6.937e+02	6.958e+02	1	local_merge
+TIMER	1.314e+02	4.700e+02	6.163e+02	1	fix_partition
+TIMER	1.136e+03	1.137e+03	1.137e+03	1	local_sort
+TIMER	8.485e+00	8.696e+00	8.927e+00	1	get_splitters
+TIMER	2.642e-01	1.391e+00	2.830e+01	1	send_counts
+TIMER	1.878e+03	1.912e+03	1.929e+03	1	all2all
+TIMER	6.757e+02	6.949e+02	7.157e+02	1	local_merge
+TIMER	8.147e+01	3.132e+02	4.497e+02	1	fix_partition
+2016-11-07 01:19:19,176 INFO  Iteration #5
+2016-11-07 01:19:19,177 INFO  Load distribution of active tuples min-mean-max : 1341909,1341909,1341910
+TIMER	3.389e+02	3.392e+02	3.395e+02	1	local_sort
+TIMER	4.854e+00	5.080e+00	5.396e+00	1	get_splitters
+TIMER	2.874e-01	8.555e-01	1.906e+00	1	send_counts
+TIMER	1.175e+03	1.182e+03	1.202e+03	1	all2all
+TIMER	2.409e+02	2.557e+02	2.563e+02	1	local_merge
+TIMER	5.647e+01	1.588e+02	2.068e+02	1	fix_partition
+TIMER	3.764e+02	3.772e+02	3.785e+02	1	local_sort
+TIMER	5.271e+00	5.461e+00	5.744e+00	1	get_splitters
+TIMER	1.731e-01	9.205e-01	6.450e+00	1	send_counts
+TIMER	1.286e+03	1.305e+03	1.331e+03	1	all2all
+TIMER	2.401e+02	2.528e+02	2.545e+02	1	local_merge
+TIMER	5.228e+01	1.342e+02	1.813e+02	1	fix_partition
+TIMER	3.138e+02	3.140e+02	3.143e+02	1	local_sort
+TIMER	6.309e+00	6.784e+00	1.223e+01	1	get_splitters
+TIMER	2.583e-01	9.037e-01	1.759e+01	1	send_counts
+TIMER	1.109e+03	1.127e+03	1.149e+03	1	all2all
+TIMER	2.730e+02	2.918e+02	3.104e+02	1	local_merge
+TIMER	5.705e+01	1.564e+02	2.238e+02	1	fix_partition
+TIMER	2.895e+02	3.317e+02	3.468e+02	1	local_sort
+TIMER	7.033e+00	7.209e+00	7.456e+00	1	get_splitters
+TIMER	1.502e-01	9.895e-01	2.704e+01	1	send_counts
+TIMER	1.007e+03	1.040e+03	1.074e+03	1	all2all
+TIMER	2.316e+02	2.531e+02	2.701e+02	1	local_merge
+TIMER	4.362e+01	1.381e+02	1.991e+02	1	fix_partition
+2016-11-07 01:19:28,362 INFO  Iteration #6
+2016-11-07 01:19:28,363 INFO  Load distribution of active tuples min-mean-max : 74326,74326,74327
+TIMER	6.929e+00	1.882e+01	2.508e+01	1	local_sort
+TIMER	1.179e+02	1.232e+02	1.391e+02	1	get_splitters
+TIMER	2.532e-02	1.036e-01	1.784e+00	1	send_counts
+TIMER	5.771e+02	6.092e+02	6.392e+02	1	all2all
+TIMER	6.912e+00	1.802e+01	3.718e+01	1	local_merge
+TIMER	4.497e+01	6.689e+01	8.353e+01	1	fix_partition
+TIMER	4.852e+00	1.771e+01	2.597e+01	1	local_sort
+TIMER	6.332e+01	7.467e+01	7.650e+01	1	get_splitters
+TIMER	4.042e-02	1.059e-01	4.782e-01	1	send_counts
+TIMER	2.133e+02	2.186e+02	2.267e+02	1	all2all
+TIMER	9.435e+00	2.143e+01	2.411e+01	1	local_merge
+TIMER	1.660e+01	3.264e+01	4.042e+01	1	fix_partition
+TIMER	1.038e+01	1.049e+01	1.066e+01	1	local_sort
+TIMER	4.814e+00	5.056e+00	5.208e+00	1	get_splitters
+TIMER	3.696e-02	8.596e-02	3.927e-01	1	send_counts
+TIMER	3.407e+02	3.522e+02	3.581e+02	1	all2all
+TIMER	9.957e+00	1.017e+01	1.560e+01	1	local_merge
+TIMER	4.061e+00	1.212e+01	1.655e+01	1	fix_partition
+TIMER	6.854e+00	7.008e+00	7.215e+00	1	local_sort
+TIMER	4.418e+00	4.619e+00	4.845e+00	1	get_splitters
+TIMER	3.706e-02	8.950e-02	3.048e-01	1	send_counts
+TIMER	1.675e+02	1.704e+02	1.726e+02	1	all2all
+TIMER	1.083e+01	1.102e+01	1.119e+01	1	local_merge
+TIMER	3.107e+00	1.267e+01	1.737e+01	1	fix_partition
+2016-11-07 01:19:30,907 INFO  Iteration #7
+2016-11-07 01:19:30,918 INFO  Load distribution of active tuples min-mean-max : 27164,27164,27165
+TIMER	2.590e+01	2.743e+01	2.770e+01	1	local_sort
+TIMER	1.217e+02	1.343e+02	1.448e+02	1	get_splitters
+TIMER	2.080e-02	9.431e-02	3.502e-01	1	send_counts
+TIMER	1.231e+02	1.316e+02	1.467e+02	1	all2all
+TIMER	1.508e+00	1.279e+01	1.802e+01	1	local_merge
+TIMER	6.941e+01	8.459e+01	9.367e+01	1	fix_partition
+TIMER	1.225e+00	1.326e+01	2.408e+01	1	local_sort
+TIMER	6.739e+01	8.523e+01	8.564e+01	1	get_splitters
+TIMER	1.844e-02	7.562e-02	3.270e-01	1	send_counts
+TIMER	5.262e+01	5.294e+01	5.354e+01	1	all2all
+TIMER	2.030e+00	2.143e+00	2.251e+00	1	local_merge
+TIMER	2.948e+00	7.718e+00	1.504e+01	1	fix_partition
+TIMER	1.706e+00	1.475e+01	2.601e+01	1	local_sort
+TIMER	1.068e+02	1.197e+02	1.299e+02	1	get_splitters
+TIMER	2.899e-02	6.637e-02	2.471e-01	1	send_counts
+TIMER	2.963e+02	3.105e+02	3.372e+02	1	all2all
+TIMER	1.961e+00	9.292e+00	1.909e+01	1	local_merge
+TIMER	1.734e+01	3.075e+01	4.510e+01	1	fix_partition
+TIMER	1.234e+00	9.827e+00	2.145e+01	1	local_sort
+TIMER	3.972e+00	4.156e+00	4.315e+00	1	get_splitters
+TIMER	1.697e-02	6.813e-02	3.047e-01	1	send_counts
+TIMER	4.001e+01	4.034e+01	4.064e+01	1	all2all
+TIMER	1.834e+00	1.950e+00	2.048e+00	1	local_merge
+TIMER	2.463e+00	7.372e+00	1.266e+01	1	fix_partition
+2016-11-07 01:19:32,872 INFO  Iteration #8
+2016-11-07 01:19:32,874 INFO  Load distribution of active tuples min-mean-max : 19972,19972,19973
+TIMER	5.766e+00	5.876e+00	6.057e+00	1	local_sort
+TIMER	4.548e+00	4.738e+00	4.911e+00	1	get_splitters
+TIMER	1.953e-02	6.750e-02	3.113e-01	1	send_counts
+TIMER	2.113e+01	2.396e+01	2.448e+01	1	all2all
+TIMER	1.743e+00	1.881e+00	2.019e+00	1	local_merge
+TIMER	2.594e+00	5.982e+00	7.851e+00	1	fix_partition
+TIMER	7.397e-01	8.603e-01	1.033e+00	1	local_sort
+TIMER	3.713e+00	3.871e+00	4.031e+00	1	get_splitters
+TIMER	7.622e-03	5.092e-02	3.217e-01	1	send_counts
+TIMER	2.243e+01	2.274e+01	2.292e+01	1	all2all
+TIMER	1.137e+00	1.246e+00	1.354e+00	1	local_merge
+TIMER	3.673e+00	8.570e+00	1.306e+01	1	fix_partition
+TIMER	1.350e+00	1.452e+00	1.590e+00	1	local_sort
+TIMER	4.693e+00	4.911e+00	5.078e+00	1	get_splitters
+TIMER	2.377e-02	7.055e-02	3.295e-01	1	send_counts
+TIMER	3.356e+01	3.440e+01	4.172e+01	1	all2all
+TIMER	1.634e+00	1.759e+00	6.594e+00	1	local_merge
+TIMER	1.857e+00	5.086e+00	2.035e+01	1	fix_partition
+TIMER	6.684e-01	1.346e+01	2.514e+01	1	local_sort
+TIMER	1.298e+02	1.510e+02	1.607e+02	1	get_splitters
+TIMER	8.179e-03	3.820e-02	2.337e-01	1	send_counts
+TIMER	2.375e+02	2.505e+02	2.515e+02	1	all2all
+TIMER	1.118e+00	1.219e+00	1.322e+00	1	local_merge
+TIMER	1.866e+00	7.085e+00	8.151e+00	1	fix_partition
+2016-11-07 01:19:33,971 INFO  Iteration #9
+2016-11-07 01:19:33,985 INFO  Load distribution of active tuples min-mean-max : 18827,18827,18828
+TIMER	9.406e-01	2.436e+01	3.148e+01	1	local_sort
+TIMER	1.173e+02	1.318e+02	1.380e+02	1	get_splitters
+TIMER	1.502e-02	5.354e-02	2.746e-01	1	send_counts
+TIMER	7.945e+01	1.826e+02	1.852e+02	1	all2all
+TIMER	1.633e+00	1.745e+00	1.904e+00	1	local_merge
+TIMER	2.631e+00	5.809e+00	7.322e+00	1	fix_partition
+TIMER	7.689e-01	8.881e-01	1.003e+00	1	local_sort
+TIMER	3.410e+00	3.640e+00	3.778e+00	1	get_splitters
+TIMER	4.513e-03	3.885e-02	2.302e-01	1	send_counts
+TIMER	2.460e+01	2.512e+01	2.725e+01	1	all2all
+TIMER	8.596e-01	9.710e-01	1.073e+00	1	local_merge
+TIMER	2.026e+00	6.931e+00	1.003e+01	1	fix_partition
+TIMER	9.320e-01	1.401e+01	2.600e+01	1	local_sort
+TIMER	1.186e+02	1.207e+02	1.329e+02	1	get_splitters
+TIMER	2.407e-02	5.320e-02	2.230e-01	1	send_counts
+TIMER	4.734e+01	4.784e+01	4.840e+01	1	all2all
+TIMER	1.795e+00	1.884e+00	1.997e+00	1	local_merge
+TIMER	1.715e+00	4.450e+00	1.508e+01	1	fix_partition
+TIMER	6.250e-01	1.340e+01	1.976e+01	1	local_sort
+TIMER	1.248e+02	1.296e+02	1.397e+02	1	get_splitters
+TIMER	4.677e-03	4.608e-02	2.165e-01	1	send_counts
+TIMER	4.948e+01	5.096e+01	5.495e+01	1	all2all
+TIMER	7.711e-01	8.737e-01	9.726e-01	1	local_merge
+TIMER	1.833e+00	6.934e+00	1.540e+01	1	fix_partition
+2016-11-07 01:19:35,555 INFO  Iteration #10
+2016-11-07 01:19:35,561 INFO  Load distribution of active tuples min-mean-max : 17089,17089,17090
+TIMER	1.007e+00	1.173e+00	1.304e+00	1	local_sort
+TIMER	5.263e+00	5.437e+00	5.623e+00	1	get_splitters
+TIMER	1.506e-02	6.421e-02	2.641e-01	1	send_counts
+TIMER	2.720e+01	2.833e+01	2.925e+01	1	all2all
+TIMER	7.552e-01	8.913e-01	1.036e+00	1	local_merge
+TIMER	2.288e+00	4.314e+00	1.508e+01	1	fix_partition
+TIMER	4.291e-01	1.883e+01	3.019e+01	1	local_sort
+TIMER	1.049e+02	1.077e+02	1.199e+02	1	get_splitters
+TIMER	3.883e-03	2.487e-02	1.627e-01	1	send_counts
+TIMER	2.250e+00	4.249e+01	4.364e+01	1	all2all
+TIMER	5.820e-01	7.495e-01	8.416e-01	1	local_merge
+TIMER	4.439e+00	8.220e+00	1.556e+01	1	fix_partition
+TIMER	7.898e-01	1.412e+01	2.607e+01	1	local_sort
+TIMER	1.280e+02	1.370e+02	1.500e+02	1	get_splitters
+TIMER	2.198e-02	5.435e-02	2.909e-01	1	send_counts
+TIMER	1.124e+02	1.204e+02	1.210e+02	1	all2all
+TIMER	1.090e+00	1.194e+00	1.286e+00	1	local_merge
+TIMER	1.802e+00	3.901e+00	1.505e+01	1	fix_partition
+TIMER	4.315e-01	6.621e+00	1.598e+01	1	local_sort
+TIMER	1.190e+02	1.293e+02	1.469e+02	1	get_splitters
+TIMER	3.433e-03	4.435e-02	2.925e-01	1	send_counts
+TIMER	2.782e+01	3.109e+02	3.158e+02	1	all2all
+TIMER	7.997e-01	8.926e-01	9.813e-01	1	local_merge
+TIMER	3.134e+00	7.064e+00	1.259e+01	1	fix_partition
+2016-11-07 01:19:37,460 INFO  Algorithm took 10 iterations
+TIMER	1.148e+03	1.160e+03	1.160e+03	1	local_sort
+TIMER	6.312e+00	6.537e+00	6.750e+00	1	get_splitters
+TIMER	2.327e-02	1.192e-01	2.309e+00	1	send_counts
+TIMER	6.403e+02	8.911e+02	1.059e+03	1	all2all
+TIMER	6.219e+02	6.223e+02	6.224e+02	1	local_merge
+TIMER	7.839e+01	6.465e+02	8.307e+02	1	fix_partition
+2016-11-07 01:19:41,304 INFO  Count of components -> 8907034
+2016-11-07 01:19:41,304 INFO  Time (ms) -> 109197

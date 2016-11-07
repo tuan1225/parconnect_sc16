@@ -3,7 +3,7 @@
 #more info requesting specific nodes see
 #"man pbs_resources"
 #PBS -V
-#PBS -l nodes=3:ppn=44:core44
+#PBS -l nodes=3:ppn=36:core36+3:ppn=44:core44
 #PBS -N parconnect
 #PBS -joe
 #PBS -q batch

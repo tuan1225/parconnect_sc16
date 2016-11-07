@@ -1,0 +1,2 @@
+job submitted: Mon Nov  7 01:36:02 PST 2016 on node6
+=>> PBS: job killed: node 1 (node5) requested job terminate, 'EOF' (code 1099) - received SISTER_EOF attempting to communicate with sister MOM's

@@ -1,0 +1,61 @@
+Command:		/usr/local/openmpi-gcc/bin/mpirun --mca btl openib,self,sm --nooversubscribe -np 132 --map-by node -machinefile /var/spool/torque/aux//668.nibbler ./bin/benchmark_parconnect --input dbg --file input/40,000,000.fastq
+Resources:		3 nodes (44 physical, 44 logical cores per node)
+Memory:			63 GiB per node
+Tasks:			132 processes
+Machine:		node7
+Started on:		Mon Nov 7 01:31:13 2016
+Total time:		171 seconds (3 minutes)
+Executable:		benchmark_parconnect
+Full path:		/home/tuan/parconnect_SCC16/build_directory/bin
+Input file:		
+Notes:			
+
+Summary: benchmark_parconnect is MPI-bound in this configuration
+Compute:				          45.6% |====|
+MPI:					          54.4% |====|
+I/O:					           0.0% |
+This application run was MPI-bound. A breakdown of this time and advice for investigating further is found in the MPI section below.
+
+
+CPU:
+A breakdown of the 45.6% total compute time:
+Scalar numeric ops:			           2.3% |
+Vector numeric ops:			           0.0% |
+Memory accesses:			          97.3% |=========|
+The per-core performance is memory-bound. Use a profiler to identify time-consuming loops and check their cache performance.
+No time is spent in vectorized instructions. Check the compiler's vectorization advice to see why key loops could not be vectorized.
+
+Threads:
+A breakdown of how multiple threads were used:
+Computation:				          83.3% |=======|
+Synchronization:			          16.7% |=|
+Physical core utilization:		         100.0% |=========|
+System load:				          99.6% |=========|
+Thread usage appears to be well-optimized. Check the CPU breakdown for advice on further improving performance.
+
+
+MPI:
+A breakdown of the 54.4% MPI time:
+Time in collective calls:		          99.0% |=========|
+Time in point-to-point calls:		           1.0% |
+Effective process collective rate:	       1.26e+08 bytes/s
+Effective process point-to-point rate:	           95.8 bytes/s
+Most of the time is spent in collective calls with an average transfer rate. Using larger messages and overlapping communication and computation may increase the effective transfer rate.
+
+
+I/O:
+A breakdown of the 0.0% I/O time:
+Time in reads:				         100.0% |=========|
+Time in writes:				           0.0% |
+Effective process read rate:		       4.51e+05 bytes/s
+Effective process write rate:		              0 bytes/s
+Most of the time is spent in read operations with a very low effective transfer rate. This may be caused by contention for the filesystem or inefficient access patterns. Use an I/O profiler to investigate which write calls are affected.
+
+
+Memory:
+Per-process memory usage may also affect scaling:
+Mean process memory usage:		       6.45e+08 bytes
+Peak process memory usage:		       1.08e+09 bytes
+Peak node memory usage:			          84.0% |=======|
+There is significant variation between peak and mean memory usage. This may be a sign of workload imbalance or a memory leak.
+
