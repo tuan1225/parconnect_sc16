@@ -1,0 +1,132 @@
+set(TEST_NAME bliss_test_apps)
+include("${PROJECT_SOURCE_DIR}/cmake/Sanitizer.cmake")
+include("${PROJECT_SOURCE_DIR}/cmake/ExtraWarnings.cmake")
+
+if(ENABLE_TESTING)
+
+
+## EXECUTABLES
+add_executable(test_omp_patterns test_omp_patterns.cpp)
+target_link_libraries(test_omp_patterns ${EXTRA_LIBS})
+cotire(test_omp_patterns)
+
+
+endif()
+
+
+
+
+
+
+if (BUILD_TEST_APPLICATIONS)
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_MMAP benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP)
+target_link_libraries(benchmark_concurrent_IO_MMAP ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_MMAP )
+
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_MMAP_ADVISE benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_ADVISE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_ADVISE)
+target_link_libraries(benchmark_concurrent_IO_MMAP_ADVISE ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_MMAP_ADVISE )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_MMAP_POPULATE benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_POPULATE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_POPULATE)
+target_link_libraries(benchmark_concurrent_IO_MMAP_POPULATE ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_MMAP_POPULATE )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_MMAP_POPULATE_ADVISE benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_POPULATE_ADVISE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_POPULATE_ADVISE)
+target_link_libraries(benchmark_concurrent_IO_MMAP_POPULATE_ADVISE ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_MMAP_POPULATE_ADVISE )
+
+# HUGETLB DOES NOT WORK WITH FILES.
+## EXECUTABLES
+#add_executable(benchmark_concurrent_IO_MMAP_HUGEPAGE benchmark_concurrent_IO.cpp)
+#SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_HUGEPAGE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_HUGEPAGE)
+#target_link_libraries(benchmark_concurrent_IO_MMAP_HUGEPAGE ${EXTRA_LIBS})
+#cotire(benchmark_concurrent_IO_MMAP_HUGEPAGE )
+#
+## EXECUTABLES
+#add_executable(benchmark_concurrent_IO_MMAP_HUGEPAGE_ADVISE benchmark_concurrent_IO.cpp)
+#SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_HUGEPAGE_ADVISE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_HUGEPAGE_ADVISE)
+#target_link_libraries(benchmark_concurrent_IO_MMAP_HUGEPAGE_ADVISE ${EXTRA_LIBS})
+#cotire(benchmark_concurrent_IO_MMAP_HUGEPAGE_ADVISE )
+#
+## EXECUTABLES
+#add_executable(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE benchmark_concurrent_IO.cpp)
+#SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_POPULATE_HUGEPAGE)
+#target_link_libraries(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE ${EXTRA_LIBS})
+#cotire(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE )
+#
+## EXECUTABLES
+#add_executable(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE_ADVISE benchmark_concurrent_IO.cpp)
+#SET_TARGET_PROPERTIES(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE_ADVISE PROPERTIES COMPILE_FLAGS -DTEST_OP_MMAP_POPULATE_HUGEPAGE_ADVISE)
+#target_link_libraries(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE_ADVISE ${EXTRA_LIBS})
+#cotire(benchmark_concurrent_IO_MMAP_POPULATE_HUGEPAGE_ADVISE )
+#
+
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FILELOADER benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FILELOADER PROPERTIES COMPILE_FLAGS -DTEST_OP_FILELOADER)
+target_link_libraries(benchmark_concurrent_IO_FILELOADER ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FILELOADER )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FILELOADER_ATOMIC benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FILELOADER_ATOMIC PROPERTIES COMPILE_FLAGS -DTEST_OP_FILELOADER_ATOMIC)
+target_link_libraries(benchmark_concurrent_IO_FILELOADER_ATOMIC ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FILELOADER_ATOMIC )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FASTQ benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FASTQ PROPERTIES COMPILE_FLAGS -DTEST_OP_FASTQ)
+target_link_libraries(benchmark_concurrent_IO_FASTQ ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FASTQ )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FASTQIter benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FASTQIter PROPERTIES COMPILE_FLAGS -DTEST_OP_FASTQIter)
+target_link_libraries(benchmark_concurrent_IO_FASTQIter ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FASTQIter )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FASTQIter2 benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FASTQIter2 PROPERTIES COMPILE_FLAGS -DTEST_OP_FASTQIter2)
+target_link_libraries(benchmark_concurrent_IO_FASTQIter2 ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FASTQIter2 )
+
+# EXECUTABLES
+add_executable(benchmark_concurrent_IO_FASTQIterNoQual benchmark_concurrent_IO.cpp)
+SET_TARGET_PROPERTIES(benchmark_concurrent_IO_FASTQIterNoQual PROPERTIES COMPILE_FLAGS -DTEST_OP_FASTQIterNoQual)
+target_link_libraries(benchmark_concurrent_IO_FASTQIterNoQual ${EXTRA_LIBS})
+cotire(benchmark_concurrent_IO_FASTQIterNoQual )
+
+
+
+## EXECUTABLES
+add_executable(profile_mem_usage profile_mem_usage.cpp) 
+target_link_libraries(profile_mem_usage ${EXTRA_LIBS})
+cotire(profile_mem_usage )
+
+
+add_executable(hash_vs_sort hash_vs_sort.cpp)
+target_link_libraries(hash_vs_sort ${EXTRA_LIBS})
+
+add_executable(chrono_vs_time chrono_vs_time.cpp)
+target_link_libraries(chrono_vs_time ${EXTRA_LIBS})
+
+
+if (Boost_FOUND)
+	add_executable(cust_alloc test_custom_allocator.cpp)
+	target_link_libraries(cust_alloc ${EXTRA_LIBS})
+endif()
+
+endif()
+
